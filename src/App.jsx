@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
+
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Users from "./pages/Users";
@@ -9,6 +11,8 @@ function App() {
 
   return (
     <BrowserRouter>
+
+    <Navbar />
 
       <Routes>
 
